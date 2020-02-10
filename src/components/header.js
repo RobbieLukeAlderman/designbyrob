@@ -23,17 +23,6 @@ const Header = ({ siteTitle }) => (
       <ul>
         <li>
           <Link
-            to="/" // to="/port/
-            style={{
-              color: `black`,
-              textDecoration: `none`,
-            }}
-          >
-            <span className="underline">showreel</span>
-          </Link>
-        </li>
-        <li>
-          <Link
             to="/"
             style={{
               color: `black`,
