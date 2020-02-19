@@ -1,5 +1,4 @@
 
-
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -170,6 +169,12 @@ text-decoration: none;
   text-decoration: none;
 }
 
+.underline span {
+  font-family: 'Raleyway';
+  font-weight: 700;
+  opacity: 1;
+}
+
 .anim {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .7s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%2394b7c7' stroke-width='1.5' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
   background-position: 0 90%;
@@ -199,6 +204,9 @@ p {
 
 .brief {
   letter-spacing: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  text-align: center;
 }
 
 .contact {
@@ -222,6 +230,53 @@ p {
 h1 {
   text-align: center;
 }
+
+.bioHeader {
+  font-family: 'Raleway';
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.bioBox {
+  height: 500px;
+  width: 80%;
+  margin: auto;
+  padding: 60px 20px 20px 30px;
+}
+
+.bioBodyText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+    opacity: 0.5;
+    cursor: pointer;
+    line-height: 2;
+}
+
+.bioBodyText:hover {
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+}
+
+
+.bioAbout {
+  font-family: monospace;
+  font-size: 15px;
+  text-align: left;
+  margin-top: -10px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.bioHighlight {
+  background-color: #efce63;
+}
+
+.bioAbout:hover {
+  opacity: 1;
+}
+
 
 ::selection {
   background: #ff8283; /* WebKit/Blink Browsers */

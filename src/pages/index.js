@@ -40,6 +40,32 @@ const IndexPage = () => (
     </a>
     </p>
 
+    <div className="bioBox" style={{ marginTop: `80px`}}>
+      <h4 className="bioHeader">
+        <span className="bioHighlight">
+          &nbsp; Robbie Luke Alderman &nbsp;
+        </span>
+      </h4>
+      <p className="bioAbout">
+        01 05 1998
+          &nbsp;
+        -
+          &nbsp;
+        WESTON-SUPER-MARE
+      </p>
+      <p className="bioBodyText">
+        I am a freelance graphic designer, web designer, and web developer. I focus on the complicated bits for you. For 6 years I have been sticking my teeth into all things design, even bagging myself a few clients along the way!
+      </p>
+      <p className="bioBodyText">
+        Join my growing list of happy clients today by&nbsp;
+        <a className="underline" href="mailto:RobbieLAlderman@gmail.com?Subject=Website%20Email">
+        <span>
+          contacting me.
+        </span>
+        </a>
+      </p>
+
+    </div>
   </Layout>
 )
 

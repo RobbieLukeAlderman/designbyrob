@@ -21,6 +21,28 @@ const Header = ({ siteTitle }) => (
     <img src={logo} alt="Logo" draggable="false"/>
 
       <ul>
+        <li>
+          <Link
+            to="/port" // to="/port/
+            style={{
+              color: `black`,
+              textDecoration: `none`,
+            }}
+          >
+            <span className="underline">showreel</span>
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/"
+            style={{
+              color: `black`,
+              textDecoration: `none`,
+            }}
+          >
+          <span className="underline">home</span>
+          </Link>
+        </li>
       </ul>
 
     </div>
