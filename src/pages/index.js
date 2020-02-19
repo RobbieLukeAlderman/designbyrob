@@ -43,7 +43,7 @@ const IndexPage = () => (
     <div className="bioBox" style={{ marginTop: `80px`}}>
       <h4 className="bioHeader">
         <span className="bioHighlight">
-          &nbsp; Robbie Luke Alderman &nbsp;
+        Robbie L. Alderman
         </span>
       </h4>
       <p className="bioAbout">
