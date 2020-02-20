@@ -18,7 +18,18 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-    <img src={logo} alt="Logo" draggable="false"/>
+
+    <Link
+      to="/"
+      style={{
+        color: `black`,
+        textDecoration: `none`,
+      }}
+    >
+
+      <img src={logo} alt="Logo" draggable="false"/>
+
+      </Link>
 
       <ul>
         <li>

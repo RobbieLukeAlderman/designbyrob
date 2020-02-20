@@ -36,29 +36,21 @@ div li {
 }
 
 .previewPane {
-  height: 600px;
-  min-width: 100px;
-  width: 400px;
-  display: block;
-  max-width: 400px;
-  border-top: 4px solid black;
-  border-bottom: 0.5px solid black;
-  border-left: 0.5px solid black;
-  border-right: 0.5px solid black;
+  height: 300px;
+  width: 95%;
   margin: auto;
-  margin-left: 40px;
-  margin-top: 60px;
-  margin-bottom: 300px;
+  display: block;
   cursor: pointer;
-  transition: 0.3s ease-in-out;
+  background-color: black;
+  margin-top: 90px;
+  transition: 0.2s ease-in-out;
 }
 
 .previewPane:hover {
-  border-top: 10px solid black;
+  margin-top: 85px;
+  height: 310px;
+  width: 100%;
   transition: 0.2s ease-in-out;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
 }
 
 .previewThin {
@@ -254,7 +246,7 @@ h1 {
 }
 
 .bioBox {
-  height: 800px;
+  height: 450px;
   width: 80%;
   margin: auto;
   padding: 40px 10px 10px 15px;

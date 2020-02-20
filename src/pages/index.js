@@ -56,7 +56,7 @@ const IndexPage = () => (
       <p className="bioBodyText">
         I am a freelance graphic designer, web designer, and web developer. I focus on the complicated bits for you. For 6 years I have been sticking my teeth into all things design, even bagging myself a few clients along the way!
       </p>
-      <p className="bioBodyText" style={{ marginBottom: `100px` }}>
+      <p className="bioBodyText">
         Join my growing list of happy clients today by&nbsp;
         <a className="underline" href="mailto:RobbieLAlderman@gmail.com?Subject=Website%20Email">
         <span>
