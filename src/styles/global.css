@@ -453,7 +453,6 @@ transition: 0.2s ease-in-out;
   background-image: url("../images/ghst.jpg");
   background-repeat: no-repeat, repeat;
   background-size: contain;
-  background-color: red;
   margin-top: 45px;
   cursor: pointer;
 }
