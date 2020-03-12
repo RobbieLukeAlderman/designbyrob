@@ -1,5 +1,6 @@
 import React from "react"
 
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -7,12 +8,26 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <div className="pattern"></div>
-    <SEO title="home" />
-    <h1 className="align">Hello, I'm <span className="anim"> Rob </span></h1>
-    <p className="brief">Web Developer / Designer /<span className="overlight"><a href="mailto:RobbieLAlderman@gmail.com" alt="Click here to contact me"> 愛 - 設計 </a></span></p>
+    <SEO title="Portfolio by Robbie Luke Alderman Web Designer" />
+    <h1 className="align">
+        Hello, I'm
+      <span className="anim">
+        Rob
+      </span>
+    </h1>
+    <p className="brief">
+      Web Developer / Designer /
+      <span className="overlight">
+        <a href="mailto:RobbieLAlderman@gmail.com" alt="Click here to contact me">
+          愛 - 設計
+        </a>
+      </span>
+    </p>
     <p className="contact">
       <span className="dark">
-        email:
+        <a href="mailto:RobbieLAlderman@gmail.com" alt="Click here to contact me">
+          email:
+        </a>
       </span>
       <a className="underline" href="mailto:RobbieLAlderman@gmail.com?Subject=Website%20Email">
         robbielalderman@gmail.com
@@ -60,12 +75,28 @@ const IndexPage = () => (
         Join my growing list of happy clients today by&nbsp;
         <a className="underline" href="mailto:RobbieLAlderman@gmail.com?Subject=Website%20Email">
         <span>
+        <Link to="/contact"
+        style={{
+          textDecoration: `none`,
+        }}
+        >
           contacting me.
+        </Link>
         </span>
         </a>
       </p>
 
+      <Link
+        to="/contact"
+        style={{
+          textDecoration: `none`,
+        }}
+        >
+        <button type='submit' className="myStyleButton" style={{marginBottom: `100px`}}>Contact me</button>
+      </Link>
+
     </div>
+
   </Layout>
 )
 

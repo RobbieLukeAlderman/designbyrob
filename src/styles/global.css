@@ -22,6 +22,61 @@ div li {
   padding: 4px;
 }
 
+.iconBox {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 80px;
+  cursor: pointer;
+  border: 0.5px solid lightslategray;
+  background-color: whitesmoke;
+  opacity: 0.5;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.05), 0 15px 12px rgba(0,0,0,0.07);
+  transition: 0.2s ease-in-out;
+
+  padding: 10px;
+  font-family: 'Raleway';
+  font-size: 30px;
+}
+
+.iconBox:hover {
+  height: 315px;
+  width: 315px;
+  opacity: 0.7;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.20), 0 15px 12px rgba(0,0,0,0.15);
+  transition: 0.2s ease-in-out;
+}
+
+.homeBox {
+  height: 50px;
+  width: 140px;
+  margin: auto;
+  padding: 5px;
+  line-height: 2.5;
+  margin-bottom: 100px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  float: left;
+  margin-left: 105px;
+  font-family: 'Raleway';
+  font-size: 15px;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  border-bottom: 1.5px solid lightslategrey;
+
+}
+
+.homeBox:hover {
+  height: 55px;
+  width: 180px;
+  line-height: 2.4;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+  border-bottom: 3px solid #efce63;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.02), 0 15px 12px rgba(0,0,0,0.02);
+}
+
 .textDivide {
   height: 2px;
   width: 70px;
@@ -33,24 +88,6 @@ div li {
 
 .overlight{
   background-color: #efce63;
-}
-
-.previewPane {
-  height: 300px;
-  width: 95%;
-  margin: auto;
-  display: block;
-  cursor: pointer;
-  background-color: black;
-  margin-top: 90px;
-  transition: 0.2s ease-in-out;
-}
-
-.previewPane:hover {
-  margin-top: 85px;
-  height: 310px;
-  width: 100%;
-  transition: 0.2s ease-in-out;
 }
 
 .previewThin {
@@ -246,7 +283,7 @@ h1 {
 }
 
 .bioBox {
-  height: 450px;
+  height: 380px;
   width: 80%;
   margin: auto;
   padding: 40px 10px 10px 15px;
@@ -260,6 +297,7 @@ h1 {
     opacity: 0.5;
     cursor: pointer;
     line-height: 2;
+    transition: 0.2s ease-in-out;
 }
 
 .bioBodyText:hover {
@@ -275,6 +313,7 @@ h1 {
   margin-top: -10px;
   opacity: 0.6;
   cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
 
 .bioHighlight {
@@ -283,12 +322,150 @@ h1 {
 
 .bioAbout:hover {
   opacity: 1;
+  transition: 0.2s ease-in-out;
 }
 
+.myForm {
+  width: 60%;
+  margin: auto;
+
+}
+
+.myForm label {
+  display: block;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 0.4;
+  font-weight: bold;
+  margin-left: 75px;
+}
+
+.myForm input {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 22px;
+  display: block;
+  cursor: pointer;
+  height: 60px;
+  width: 400px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: grey;
+  border: 0px;
+  border-bottom: 1px solid #efce63;
+  transition: 0.2s ease-in-out;
+  padding: 10px;
+}
+
+.myForm input:hover {
+  border-bottom: 2px solid #efce63;
+  margin-bottom: 21px;
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.75);
+opacity: 1;
+color: darkslategrey;
+transition: 0.2s ease-in-out;
+}
+
+.myForm textarea {
+  padding: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  cursor: pointer;
+  height: 120px;
+  width: 400px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: grey;
+  border: 0px;
+  border-bottom: 1px solid #efce63;
+  transition: 0.2s ease-in-out;
+}
+
+.myForm textarea:hover {
+  border-bottom: 2px solid #efce63;
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.75);
+margin-bottom: -1px;
+transition: 0.2s ease-in-out;
+}
+
+.myForm button {
+  margin: auto;
+  margin-bottom: 50px;
+  display: block;
+  width: 400px;
+  height: 60px;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  text-transform: lowercase;
+  font-size: 22px;
+  color: #efce63;
+  border: 1px solid #efce63;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.myForm button:hover {
+  border: 1px solid #efce63;
+  background-color: #efce63;
+  color: black;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.75);
+}
+
+.myStyleButton {
+  height: 50px;
+  width: 140px;
+  background-color: white;
+  border: 1px solid #efce63;
+  color: #efce63;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+
+}
+
+.myStyleButton:hover {
+  border: 1px solid #efce63;
+  background-color: #efce63;
+  color: black;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.75);
+}
+
+.myLinkImage {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  background-image: url("../images/ghst.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: contain;
+  background-color: red;
+  margin-top: 45px;
+  cursor: pointer;
+}
+
+.rc-anchor-light {
+}
 
 ::selection {
   background: #ff8283; /* WebKit/Blink Browsers */
+  color: white;
 }
 ::-moz-selection {
   background: #ff8283; /* Gecko Browsers */
+  color: white;
 }
