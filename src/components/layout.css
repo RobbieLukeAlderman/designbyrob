@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@400;700&display=swap');
 
 html {
   font-family: sans-serif;
@@ -6,6 +7,8 @@ html {
 }
 body {
   margin: 0;
+  padding: 20px;
+  cursor: crosshair;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -62,9 +65,29 @@ strong {
 dfn {
   font-style: italic;
 }
+#rob {
+  font-size: 50px;
+}
+
+#ender {
+  transition: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+#ender span {
+  font-weight: 600;
+  color: #f94144;
+}
+
 h1 {
-  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
   margin: 0.67em 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 mark {
   background-color: #ff0;
@@ -284,13 +307,14 @@ h4 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: grey;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1rem;
+  font-size: 0.75rem;
+  font-weight: 400;
   line-height: 1.1;
+  text-align: center;
 }
 h5 {
   margin-left: 0;
@@ -394,7 +418,15 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
+  color: grey;
+  opacity: 0.75;
+  text-align: center;
   margin-bottom: 1.45rem;
+  font-weight: 100;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 figure {
   margin-left: 0;
@@ -629,4 +661,39 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.notok{
+  weight: 200px;
+}
+
+.ok {
+  height: 100px;
+  width: 100px;
+  background-color: #f94144;
+  margin:0 auto;
+  margin-bottom: 300px;
+}
+
+.ok:hover {
+  background-color: #4B89F5;
+  cursor: pointer;
+}
+
+.link {
+  font-weight: light;
+  font-size: 14px;
+}
+
+p:hover {
+  opacity: 1;
+  cursor: pointer;
+  font-size: 17px;
+  transition: 0.3s ease-in-out;
+}
+
+p span {
+  color: #4C89F4;
+  font-weight: normal;
+  font-style: italic;
 }
